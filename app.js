@@ -38,7 +38,7 @@ app.get('/:category', (req, res) => {
 app.get('/guitars/:brand', (req, res) => {
     let brandToBeFound = req.params.brand;
 
-    if (brandToBeFound == 'all') {
+    if (brandToBeFound == 'allguitars') {
         res.send(Guitars)
     }
     else {
@@ -47,24 +47,36 @@ app.get('/guitars/:brand', (req, res) => {
 })
 
 app.get('/basses/:brand', (req, res) => {
-    let brandTobeFound = req.params.brand;
+    let brandToBeFound = req.params.brand;
 
-    if (brandToBeFound == 'all') {
+    if (brandToBeFound == 'allbasses') {
         res.send(Basses)
     }
     else {
-        res.send(Basses.filter(item => item.brand.toLowerCase() == brandTobeFound))
+        res.send(Basses.filter(item => item.brand.toLowerCase() == brandToBeFound))
     }
 })
 
 app.get('/amps/:brand', (req, res) => {
-    let brandTobeFound = req.params.brand;
-    res.send(Amps.filter(item => item.brand.toLowerCase() == brandTobeFound))
+    let brandToBeFound = req.params.brand;
+
+    if (brandToBeFound == 'allamps') {
+        res.send(Amps)
+    }
+    else {
+        res.send(Amps.filter(item => item.brand.toLowerCase() == brandToBeFound))
+    }
 })
 
 app.get('/acoustic/:brand', (req, res) => {
-    let brandTobeFound = req.params.brand;
-    res.send(Acoustic.filter(item => item.brand.toLowerCase() == brandTobeFound))
+    let brandToBeFound = req.params.brand;
+
+    if (brandToBeFound == 'allacoustic') {
+        res.send(Acoustic)
+    }
+    else {
+        res.send(Acoustic.filter(item => item.brand.toLowerCase() == brandToBeFound))
+    }
 })
 
 // >> Entrar em cada produto << //
