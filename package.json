@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon server.js",
+    "install:clean": "rm -rf-node_modules/ && rm -rf package-lock.json && npm install && npm run dev"
   },
   "author": "",
   "license": "ISC",
