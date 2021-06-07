@@ -110,8 +110,6 @@ app.get('/acoustic/item/:product', (req, res) => {
 })
 // >> Entrar em cada produto << //
 
-// const port = process.env.PORT;
-
-const port = 3000;
+const port = process.env.PORT;
 
 app.listen(port, () => console.log(`BACKEND is running on port ${port}.`))
