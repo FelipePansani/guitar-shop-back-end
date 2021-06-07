@@ -53,15 +53,33 @@ let Acoustic = [{
     category: "Acoustic",
     brand: 'Taylor',
     model: '150e 12 Cordas',
-    imgPath: "https://www.twotone.com.br/cache/com_zoo/images/Taylor%20150e%2012%20Cordas-1_91ab1d8f59548ff3866aab82a56cbd47.jpg",
-    state: 'Novo'
+    imgPath: "https://i.ibb.co/QrD1cr1/Taylor-150e-12-Cordas-1-91ab1d8f59548ff3866aab82a56cbd47.jpg",
+    itemImage: "https://i.ibb.co/bPS19LW/Taylor-150e-12-Cordas-21-7d9dc658f5130cf35b714001d6ccc634.jpg",
+    gallery: [
+        { id: 1, img: "https://i.ibb.co/jV5176S/Taylor-150e-12-Cordas.jpg" },
+        { id: 2, img: "https://i.ibb.co/Wzp76hB/Taylor-150e-12-Cordas-9.jpg" },
+        { id: 3, img: "https://i.ibb.co/5jJG5hM/Taylor-150e-12-Cordas-8.jpg" },
+        { id: 4, img: "https://i.ibb.co/1RJhXB3/Taylor-150e-12-Cordas-7.jpg" },
+        { id: 5, img: "https://i.ibb.co/V3CZThn/Taylor-150e-12-Cordas-6.jpg" },
+        { id: 6, img: "https://i.ibb.co/Hh19Jc0/Taylor-150e-12-Cordas-5.jpg" },
+    ],
+    state: 'Usado'
 },
 {
     id: 5,
     category: "Acoustic",
     brand: 'Taylor',
     model: 'GS Mini E-Koa',
-    imgPath: "https://www.twotone.com.br/cache/com_zoo/images/Taylor%20GS%20Mini-E%20Koa-1_7563ab75662b2154a388898da23f0390.jpg",
+    imgPath: "https://i.ibb.co/By3PTMj/Taylor-GS-Mini-E-Koa-1-33f0e4de1f2acd16a10380ba6fdf16d1.jpg",
+    itemImage: "https://i.ibb.co/74QHTp6/Taylor-GS-Mini-E-Koa-4-ad89885bb169611a6aceef2d29064547.jpg",
+    gallery: [
+        { id: 1, img: "https://i.ibb.co/QDFYD9B/Taylor-GS-Mini-E-Koa-9.jpg" },
+        { id: 2, img: "https://i.ibb.co/pwSKSNF/Taylor-GS-Mini-E-Koa-8.jpg" },
+        { id: 3, img: "https://i.ibb.co/vjWjwJS/Taylor-GS-Mini-E-Koa-7.jpg" },
+        { id: 4, img: "https://i.ibb.co/TcVP9kT/Taylor-GS-Mini-E-Koa-6.jpg" },
+        { id: 5, img: "https://i.ibb.co/8xLkNHR/Taylor-GS-Mini-E-Koa-5.jpg" },
+        { id: 6, img: "https://i.ibb.co/QvTmt3y/Taylor-GS-Mini-E-Koa.jpg" },
+    ],
     state: 'Usado'
 },
 ]

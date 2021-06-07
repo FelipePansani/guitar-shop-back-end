@@ -3,14 +3,13 @@ let Amps = [{
     category: "Amp",
     brand: 'Fender',
     model: 'Hot Hod Deluxe SE',
-    imgPath: "https://www.twotone.com.br/cache/com_zoo/images/Fender%20Hot%20Hod%20Deluxe%20SE-2_4d9d2ad0e2c2ac953d2a8710a1ac8ad4.jpg",
-    itemImage: "https://www.twotone.com.br/cache/com_zoo/images/Fender%20Custom%20Shop%20Namm%20Ltd%20Edition%2062%20Stratocaster%20Heavy%20Relic%20Lake%20Placid%20Blue%20over%203%20Tone%20Sunburst-24_54999c75166b3362619e9659f658672b.jpg",
+    imgPath: "https://i.ibb.co/yp573vW/Fender-Hot-Hod-Deluxe-SE-2-4d9d2ad0e2c2ac953d2a8710a1ac8ad4.jpg",
+    itemImage: "https://i.ibb.co/hXyTqCv/Fender-Hot-Hod-Deluxe-SE-17849e94efd7db1cdc119edc6fd71f2f.jpg",
     gallery: [
-        { id: 1, img: "https://www.twotone.com.br/images/twotone/Produtos/Galerias/2019/jan_22/62blue/Fender%20Custom%20Shop%20Namm%20Ltd%20Edition%2062%20Stratocaster%20Heavy%20Relic%20Lake%20Placid%20Blue%20over%203%20Tone%20Sunburst.jpg" },
-        { id: 2, img: "https://www.twotone.com.br/images/twotone/Produtos/Galerias/2019/jan_22/62blue/Fender%20Custom%20Shop%20Namm%20Ltd%20Edition%2062%20Stratocaster%20Heavy%20Relic%20Lake%20Placid%20Blue%20over%203%20Tone%20Sunburst-6.jpg" },
-        { id: 3, img: "https://www.twotone.com.br/images/twotone/Produtos/Galerias/2019/jan_22/62blue/Fender%20Custom%20Shop%20Namm%20Ltd%20Edition%2062%20Stratocaster%20Heavy%20Relic%20Lake%20Placid%20Blue%20over%203%20Tone%20Sunburst-22.jpg" },
-        { id: 4, img: "https://www.twotone.com.br/images/twotone/Produtos/Galerias/2019/jan_22/62blue/Fender%20Custom%20Shop%20Namm%20Ltd%20Edition%2062%20Stratocaster%20Heavy%20Relic%20Lake%20Placid%20Blue%20over%203%20Tone%20Sunburst-28.jpg" },
-        { id: 5, img: "https://www.twotone.com.br/images/twotone/Produtos/Galerias/2019/jan_22/62blue/Fender%20Custom%20Shop%20Namm%20Ltd%20Edition%2062%20Stratocaster%20Heavy%20Relic%20Lake%20Placid%20Blue%20over%203%20Tone%20Sunburst-21.jpg" },
+        { id: 1, img: "https://i.ibb.co/SJDCDC4/Fender-Hot-Hod-Deluxe-SE-7.jpg" },
+        { id: 2, img: "https://i.ibb.co/LS7fqWM/Fender-Hot-Hod-Deluxe-SE-6.jpg" },
+        { id: 3, img: "https://i.ibb.co/mDWLhPC/Fender-Hot-Hod-Deluxe-SE-5.jpg" },
+        { id: 4, img: "https://i.ibb.co/nkZ8hBK/Fender-Hot-Hod-Deluxe-SE-8.jpg" },
     ],
     state: 'Usado'
 },
@@ -19,14 +18,13 @@ let Amps = [{
     category: "Amp",
     brand: 'Fender',
     model: 'Deluxe Reverb 65',
-    imgPath: "https://www.twotone.com.br/cache/com_zoo/images/Fender%20Deluxe%20Reverb%2065-2_eb97f5c72600acb6f9617188a1f4f563.jpg",
-    itemImage: "https://www.twotone.com.br/cache/com_zoo/images/Fender%20Custom%20Shop%20Namm%20Ltd%20Edition%2062%20Stratocaster%20Heavy%20Relic%20Lake%20Placid%20Blue%20over%203%20Tone%20Sunburst-24_54999c75166b3362619e9659f658672b.jpg",
+    imgPath: "https://i.ibb.co/zNpZHyB/Fender-Deluxe-Reverb-65-2-eb97f5c72600acb6f9617188a1f4f563.jpg",
+    itemImage: "https://i.ibb.co/2YyYBkW/Fender-Deluxe-Reverb-65-3617f3246ffa8845a3b4a04e143e7770.jpg",
     gallery: [
-        { id: 1, img: "https://www.twotone.com.br/images/twotone/Produtos/Galerias/2019/jan_22/62blue/Fender%20Custom%20Shop%20Namm%20Ltd%20Edition%2062%20Stratocaster%20Heavy%20Relic%20Lake%20Placid%20Blue%20over%203%20Tone%20Sunburst.jpg" },
-        { id: 2, img: "https://www.twotone.com.br/images/twotone/Produtos/Galerias/2019/jan_22/62blue/Fender%20Custom%20Shop%20Namm%20Ltd%20Edition%2062%20Stratocaster%20Heavy%20Relic%20Lake%20Placid%20Blue%20over%203%20Tone%20Sunburst-6.jpg" },
-        { id: 3, img: "https://www.twotone.com.br/images/twotone/Produtos/Galerias/2019/jan_22/62blue/Fender%20Custom%20Shop%20Namm%20Ltd%20Edition%2062%20Stratocaster%20Heavy%20Relic%20Lake%20Placid%20Blue%20over%203%20Tone%20Sunburst-22.jpg" },
-        { id: 4, img: "https://www.twotone.com.br/images/twotone/Produtos/Galerias/2019/jan_22/62blue/Fender%20Custom%20Shop%20Namm%20Ltd%20Edition%2062%20Stratocaster%20Heavy%20Relic%20Lake%20Placid%20Blue%20over%203%20Tone%20Sunburst-28.jpg" },
-        { id: 5, img: "https://www.twotone.com.br/images/twotone/Produtos/Galerias/2019/jan_22/62blue/Fender%20Custom%20Shop%20Namm%20Ltd%20Edition%2062%20Stratocaster%20Heavy%20Relic%20Lake%20Placid%20Blue%20over%203%20Tone%20Sunburst-21.jpg" },
+        { id: 1, img: "https://i.ibb.co/6DWSwgG/Fender-Deluxe-Reverb-65.jpg" },
+        { id: 2, img: "https://i.ibb.co/68fh2tR/Fender-Deluxe-Reverb-65-6.jpg" },
+        { id: 3, img: "https://i.ibb.co/g4fstFP/Fender-Deluxe-Reverb-65-5.jpg" },
+        { id: 4, img: "https://i.ibb.co/SmdyBCy/Fender-Deluxe-Reverb-65-3.jpg" },
     ],
     state: 'Usado'
 },
@@ -63,4 +61,4 @@ let Amps = [{
 },
 ]
 
-module.exports = Amps; 
+module.exports = Amps;

@@ -8,22 +8,17 @@ const path = require("path");
 const cors = require('cors');
 require('dotenv');
 
-// const whiteList = ['localhost:3000']
+const whiteList = []
 
-// const corsOptions = {
-//     origin: '',
-//     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
-// }
-
-// const corsOptions = {
-//     origin: function (origin, callback) {
-//         if (whiteList.indexOf(origin) !== -1) {
-//             callback(null, true)
-//         } else {
-//             callback(new Error('Not allowed by CORS'))
-//         }
-//     }
-// }
+const corsOptions = {
+    origin: function (origin, callback) {
+        if (whiteList.indexOf(origin) !== -1) {
+            callback(null, true)
+        } else {
+            callback(new Error('Not allowed by CORS'))
+        }
+    }
+}
 
 app.use(cors())
 app.use(express.json())
@@ -115,6 +110,8 @@ app.get('/acoustic/item/:product', (req, res) => {
 })
 // >> Entrar em cada produto << //
 
-const port = process.env.PORT;
+// const port = process.env.PORT;
+
+const port = 3000;
 
 app.listen(port, () => console.log(`BACKEND is running on port ${port}.`))
